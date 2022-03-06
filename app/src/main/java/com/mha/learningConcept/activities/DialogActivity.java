@@ -58,28 +58,28 @@ public class DialogActivity extends AppCompatActivity {
             }
         });
 
-//        binding.btnCustomDialog.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                CustomDialogBinding customDialogBinding = CustomDialogBinding.inflate(getLayoutInflater());
-//                Dialog dialog = new Dialog(DialogActivity.this);
-//                dialog.setContentView(customDialogBinding.getRoot());
-//                dialog.setCancelable(false);
-//                dialog.show();
-//
-//                Window window = dialog.getWindow();
-//                window.setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.WRAP_CONTENT);
-//
-//                customDialogBinding.btnSubmit.setOnClickListener(new View.OnClickListener() {
-//                    @Override
-//                    public void onClick(View view) {
-//                        Toast.makeText(DialogActivity.this, customDialogBinding.etFname.getText().toString(), Toast.LENGTH_SHORT).show();
-//                        binding.tvDisplay.setText(customDialogBinding.etFname.getText().toString());
-//                        dialog.cancel();
-//                    }
-//                });
-//            }
-//        });
+        binding.btnCustomDialog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                CustomDialogBinding customDialogBinding = CustomDialogBinding.inflate(getLayoutInflater());
+                Dialog dialog = new Dialog(DialogActivity.this);
+                dialog.setContentView(customDialogBinding.getRoot());
+                dialog.setCancelable(false);
+                dialog.show();
+
+                Window window = dialog.getWindow();
+                window.setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.WRAP_CONTENT);
+
+                customDialogBinding.btnSubmit.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Toast.makeText(DialogActivity.this, customDialogBinding.etFname.getText().toString(), Toast.LENGTH_SHORT).show();
+                        binding.tvDisplay.setText(customDialogBinding.etFname.getText().toString());
+                        dialog.cancel();
+                    }
+                });
+            }
+        });
 
     }
 }
