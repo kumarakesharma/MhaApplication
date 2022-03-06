@@ -4,12 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1405" />
+        <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/activity_data_picker.xml" value="0.21927083333333333" />
         <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/activity_demo.xml" value="0.21927083333333333" />
         <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/activity_dialog.xml" value="0.21927083333333333" />
         <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/activity_implicite_intent.xml" value="0.21927083333333333" />
         <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/activity_main.xml" value="0.21927083333333333" />
         <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/activity_menu.xml" value="0.21927083333333333" />
         <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/activity_second.xml" value="0.21927083333333333" />
+        <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/activity_webview.xml" value="0.21927083333333333" />
         <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/custom_dialog.xml" value="0.21927083333333333" />
         <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/menu/option_menu_item.xml" value="0.20353982300884957" />
       </map>
