@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MHAApplication">
         <activity
-            android:name=".db.SharedPreferenceActivity"
+            android:name=".db.LandingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,12 +21,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.MaterialDesignActivity"
+            android:name=".db.SharedPreferenceActivity"
             android:exported="true">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".activities.MaterialDesignActivity"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".activities.SpinnerActivity"
