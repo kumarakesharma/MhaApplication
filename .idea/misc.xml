@@ -14,6 +14,7 @@
         <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/activity_main.xml" value="0.21927083333333333" />
         <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/activity_material_design.xml" value="0.21927083333333333" />
         <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/activity_menu.xml" value="0.21927083333333333" />
+        <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/activity_product.xml" value="0.21927083333333333" />
         <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/activity_second.xml" value="0.21927083333333333" />
         <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/activity_shared_preference.xml" value="0.21927083333333333" />
         <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/activity_spinner.xml" value="0.21927083333333333" />
@@ -22,6 +23,9 @@
         <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/layout_add.xml" value="0.2" />
         <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/layout_custom_toast.xml" value="0.21927083333333333" />
         <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/layout_items.xml" value="0.21927083333333333" />
+        <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/layout_product_items.xml" value="0.264" />
+        <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/layout/layout_update.xml" value="0.21927083333333333" />
+        <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/menu/menu_update_delete_option.xml" value="0.21927083333333333" />
         <entry key="..\:/AndroidProject/Rakesh_12Pm/MHAApplication/app/src/main/res/menu/option_menu_item.xml" value="0.20353982300884957" />
       </map>
     </option>

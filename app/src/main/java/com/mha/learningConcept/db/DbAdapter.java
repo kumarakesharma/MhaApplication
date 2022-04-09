@@ -66,6 +66,29 @@ public class DbAdapter {
         return sqLiteDatabase.query(TABLE_NAME, COLUMNS, null, null, null, null, null);
     }
 
+    public void updateData(Context context, String rowId, String fName, String lName, String mobNo){
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(FIRST_NAME, fName);
+        contentValues.put(LAST_NAME, lName);
+        contentValues.put(MOBILE_NO, mobNo);
+
+        int updateRow = sqLiteDatabase.update(TABLE_NAME, contentValues, SER_NO+"="+rowId,null);
+        if (updateRow == 0){
+            Utility.showShortToast(context, "Something went wrong...");
+        }else {
+            Utility.showShortToast(context, "Successfully updated...");
+        }
+    }
+
+    public void deleteSingleRowData(Context context, String rowId){
+        int deletedRow = sqLiteDatabase.delete(TABLE_NAME, SER_NO+"="+rowId, null);
+        if (deletedRow == 0){
+            Utility.showShortToast(context, "Something went wrong...");
+        }else {
+            Utility.showShortToast(context, "Successfully deleted...");
+        }
+    }
+
 
     class DbHelper extends SQLiteOpenHelper{
 
