@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "205725506177",
+    "project_id": "androitraining12",
+    "storage_bucket": "androitraining12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205725506177:android:03547fa85d4e9e3c924b80",
+        "android_client_info": {
+          "package_name": "com.mha.learningConcept"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205725506177-2a61hq1decq0ds2hmr4tmla5t593b8pu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mha.learningConcept",
+            "certificate_hash": "b0dd978a49ead94ab1dfe70914bb850ab5a98229"
+          }
+        },
+        {
+          "client_id": "205725506177-dao21d1hql383065am2l7pokgbnsebqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa-aHgYZHlW9ilxj8EfLsOWqiIyVt3tiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205725506177-dao21d1hql383065am2l7pokgbnsebqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
